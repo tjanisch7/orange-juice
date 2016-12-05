@@ -1,0 +1,124 @@
+
+body {
+	margin: 0;
+	background-color: #7ACCC8;
+}
+
+header	{
+	background-color: #fe7e00;	
+	padding: 5px; 
+	
+}
+/*header + navigation section*/
+header h2 {
+	color: #fff;
+	font-family: 'Open Sans Condensed', sans-serif;
+	letter-spacing: 1px;
+	margin-left: 10%;
+	position: relative;
+
+
+}
+
+h2 span {
+	font-family: 'Roboto', sans-serif;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+h2 sup {
+	font-size: 10px;
+}	
+
+nav ul {
+	position: absolute;
+	top: 15px;
+	right: 25px;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 10px;
+	
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+div > form {
+	float: right;
+	margin-right: 5%;
+	margin-top: 0;
+	
+
+}
+/*search bar*/
+input {
+	padding-left: 20px;
+	height: 50px;
+	width: 200px;
+	background-color: #EDEFEE;
+	border: none;
+	font-size: 14px;
+}
+
+section {
+ 	height: 500px;
+ 	background-color: #fff;
+ 	
+}
+
+section .info {
+	padding-top: 50px;
+}
+
+
+.info {
+	clear: both;
+	width: 50%;
+	float: right;
+}
+
+.info p {
+	color: #fe7e00;
+	font-size: 26px;
+	margin-right: 5%;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.info p span {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.web {
+	font-family: 'Montserrat', sans-serif;
+	color: #7ACCC8;
+}
+
+.app {
+ 	color: #7ACCC8;
+}
+
+.quote {
+	background-color: #fe7e00;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px 40px;
+}
+
+.case {
+	background-color: #7ACCC8;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 10px 30px;
+	margin-left: 20px;
+}
+
+
